@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemons</title>
+  <link rel="stylesheet" href="css/bootstrap5.min.css">
+</head>
+<body class="bg-danger">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between py-4">
+      <a class="h2 mb-0 text-decoration-none text-white" href="#">Pokemons</a>
+      <a href="#" class="h4 mb-0 text-decoration-none text-white">About</a>
+    </div>
+    <div class="list-pokemons row pb-5">
+      
+    </div>
+  </div>
+
+  <template id="pokemons-card-template">
+    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+      <div class="card h-100">
+        <div class="card-body rounded-sm d-flex flex-column align-items-center bg-white p-0">
+          <div class="bg-light mb-3 w-100 h-100 d-flex justify-content-center">
+            <img class="pokemon-img py-4" src="" alt="img" width="" height="">
+          </div>
+          <h3 class="pokemon-title h4 mb-1"></h3>
+          <span class="pokemon-number mb-3"></span>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="js/bootstrap5.bundle.min.js"></script>
+  <script src="js/pokemons.js"></script>
+  <script src="js/dars.js"></script>
+</body>
+</html>

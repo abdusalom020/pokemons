@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinolar</title>
+  <link rel="stylesheet" href="css/bootstrap5.min.css">
+</head>
+<body class="bg-danger">
+
+  <div class="container-lg">
+    <div class="list-movie row py-5">
+      
+    </div>
+  </div>
+
+  <template id="movie-card-template">
+    <div class="movie col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-2">
+            <h3 class="card-title h5 mb-0 me-2"></h3>
+            <span class="badge bg-info"></span>
+          </div>
+          <div class="mb-1">Genre: <span class="genre"></span></div>
+          <div class="mb-1">Cast: <span class="cast"></span></div>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="js/bootstrap5.bundle.min.js"></script>
+  <script src="js/kinolar.js"></script>
+  <script src="js/dars.js"></script>
+</body>
+</html>
